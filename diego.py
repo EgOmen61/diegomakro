@@ -46,7 +46,7 @@ class MakroApp:
         # Koordinat 1
         coord1_label = tk.Label(
             coord_frame,
-            text="1. Tıklama: 1296, 849",
+            text="1. Tıklama: 1431, 536",
             font=('Arial', 10),
             bg='#3c3c3c',
             fg='#00ff00'
@@ -56,7 +56,7 @@ class MakroApp:
         # Koordinat 2
         coord2_label = tk.Label(
             coord_frame,
-            text="2. Tıklama: 1093, 531",
+            text="2. Tıklama: 1053, 540",
             font=('Arial', 10),
             bg='#3c3c3c',
             fg='#00ff00'
@@ -231,12 +231,12 @@ class MakroApp:
             keyboard.press('alt')
             time.sleep(0.1)  # ALT tuşunun tam basıldığından emin ol
             
-            # İlk koordinata tıkla (ALT basılıyken)
-            self.click_at(1296, 849)
+            # İlk koordinata tıkla (ALT basılıyken) - Yeni koordinat: 1431, 536
+            self.click_at(1431, 536)
             time.sleep(0.2)
             
-            # İkinci koordinata tıkla (ALT basılıyken)
-            self.click_at(1093, 531)
+            # İkinci koordinata tıkla (ALT basılıyken) - Yeni koordinat: 1053, 540
+            self.click_at(1053, 540)
             time.sleep(0.2)
             
             # 2 saniye dolana kadar bekle
